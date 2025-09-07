@@ -2,7 +2,6 @@ import "./App.css";
 import { Greeting } from "./Greeting/Greeting";
 import { Message } from "./Message/Message";
 function App() {
-  document.addEventListener();
   return (
     <>
       <Greeting name="Maksim"></Greeting>
