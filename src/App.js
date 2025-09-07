@@ -1,7 +1,14 @@
 import "./App.css";
-
+import { Greeting } from "./Greeting/Greeting";
+import { Message } from "./Message/Message";
 function App() {
-  return <div className="App"></div>;
+  document.addEventListener();
+  return (
+    <>
+      <Greeting name="Maksim"></Greeting>
+      <Message text="Welcome to Our Web-Site"></Message>
+    </>
+  );
 }
 
 export default App;
